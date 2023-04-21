@@ -13,6 +13,11 @@ def init_pinecone():
     print("Pinecone initialized")
 
 
+def create_index(index_name):
+    index = pinecone.Index(index_name)
+    return index
+
+
 if __name__ == "__main__":
     init_pinecone()
     active_indexes = pinecone.list_indexes()
