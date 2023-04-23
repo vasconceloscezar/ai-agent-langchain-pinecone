@@ -5,3 +5,5 @@ pinecone-client
 python-dotenv
 asyncio
 PyPDF2
+git
+llama_index
