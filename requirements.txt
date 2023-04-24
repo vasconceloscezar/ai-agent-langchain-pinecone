@@ -1,0 +1,6 @@
+python-socketio[client]
+langchain
+openai
+pinecone-client
+python-dotenv
+asyncio
